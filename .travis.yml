@@ -3,7 +3,7 @@ node_js:
   - 14
 before_script:
   - npm install
-  - $ npm install --save-dev @percy/cli
+  - npm install --save-dev @percy/cli
   - export PERCY_TOKEN="web_658c7eab11ca84fb056864b6f1ebb5a759947db183579d14bfbad4ba40b85371"
 script: npm run test
 
