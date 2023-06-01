@@ -1,0 +1,4 @@
+version: 2
+discovery:
+  launch-options:
+    executable: '/Users/tejendragera/Documents/chrome-mac/Chromium.app'
