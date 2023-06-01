@@ -8,9 +8,6 @@ const server = httpServer.createServer();
 const PORT = process.env.PORT_NUMBER || 8000;
 const TEST_URL = `http://localhost:${PORT}`;
 
-server.listen(PORT);
-console.log(`Server is listening on ${TEST_URL}`);
-
 async function cleanup({ driver, server, isError = 0 }) {
   driver && (await driver.quit());
   server && server.close();
